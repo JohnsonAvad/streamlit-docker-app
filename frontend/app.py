@@ -7,32 +7,31 @@ BACKEND_URL = "http://localhost:8000"
 
 # Page styles
 
+
 st.markdown("""
 <style>
-/* Overall App Styling */
+/* App background and text */
 .stApp {
-    background-color: #121212;  
+    background-color: #121212;
     color: #e0e0e0;
-    font-family: 'Segoe UI', 'Roboto', sans-serif;  /* Clean and readable */
+    font-family: 'Segoe UI', sans-serif;
 }
 
 /* Input fields */
 input[type="text"], input[type="number"] {
-    background-color: #264653;   
-    color: #f4f1de;             
-    border: 2px solid #2a9d8f;  
+    background-color: #264653;
+    color: #f4f1de;
+    border: 2px solid #2a9d8f;
     border-radius: 8px;
     padding: 8px 12px;
     font-weight: 600;
     font-size: 16px;
 }
 
-/* Labels */
-label, [data-baseweb="label"] {
-    color: #fcbf49;  /* Golden yellow for contrast */
-    font-weight: bold;
-    font-size: 18px;
-    margin-bottom: 6px;
+/* Set all labels to white */
+label {
+    color: white !important;
+    font-weight: 600;
 }
 </style>
 """, unsafe_allow_html=True)
