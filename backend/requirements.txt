@@ -1,0 +1,2 @@
+fastapi>=0.68.0  # The web framework we're using
+uvicorn>=0.15.0  # The server that runs our FastAPI app
